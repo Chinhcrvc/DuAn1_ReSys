@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu sản phẩm</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #627ce5;
+    color: white;
+    padding: 1rem 0;
+    height: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-intro img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 1rem;
+    flex: 1;
+}
+
+.product-details {
+    flex: 2;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    background: url('checkmark.png') no-repeat left center;
+    background-size: 1.5rem;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+footer {
+    background-color:  #627ce5;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Giới thiệu sản phẩm</h1>
+    </header>
+    <main>
+        <section class="product-intro">
+            <img src="img/home.png" alt="Sản phẩm của chúng tôi">
+            <div class="product-details">
+                <h2 style="color: brown;">ReSys</h2>
+                <p>Sản phẩm của chúng tôi là một giải pháp toàn diện giúp các hệ thống nhà hàng quản lý hiệu quả và tiết kiệm thời gian. Với các tính năng ưu việt, sản phẩm này sẽ đáp ứng mọi nhu cầu của nhà hàng</p>
+            </div>
+        </section>
+        <section class="features">
+            <h2>Tính năng nổi bật</h2>
+            <ul>
+                <li>Thống kê, quản lí, cập nhật tình trạng nhân viên cụ thể</li>
+                <li>Quản lý thực đơn dễ dàng</li>
+                <li>Quản lí hệ thống bàn, hóa đơn, quá trình đặt bàn rõ ràng</li>
+                <li>Theo dõi danh sách hóa đơn, chi tiết từng hóa đơn</li>
+                <li>Báo cáo chi tiết và thống kê chi tiết doanh thu, số lượng từng món bán ra theo từng ngày </li>
+                <li>Giao diện thân thiện người dùng</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Liên hệ</h2>
+            <p>Để biết thêm thông tin chi tiết, vui lòng liên hệ chúng tôi qua email: <a href="ngamtpd10814@gmail.com">ngamtpd10814@gmail.com</a> hoặc gọi số: 0123 456 789.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Công ty Quản lý hệ thống ReSys</p>
+    </footer>
+</body>
+</html>
